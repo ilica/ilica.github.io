@@ -1,10 +1,10 @@
 var rotations = {	
 	'#aboutme-nav':     -40,
-	'#ring-nav':        -24,
-	'#workexp-nav':     -18,
-	'#photography-nav': -10,
-	'#sketches-nav':     10,
-	'#contactme-nav':    20
+	'#ring-nav':        -26,
+	'#workexp-nav':     -10,
+	'#photography-nav': 6,
+	'#sketches-nav':     22,
+	'#contactme-nav':    40
 };
 
 Object.keys(rotations).forEach(function(k) { 
@@ -25,3 +25,14 @@ Object.keys(rotations).forEach(function(k) {
 $('#gear').css('transform', 'rotate('+rotations['#aboutme-nav']+'deg)');
 
 
+$('.venobox').venobox();
+
+
+	/* open content with custom settings */
+	$('.venobox_custom').venobox({
+		framewidth: '300px',
+		frameheight: '250px',
+		border: '6px',
+		bordercolor: '#ba7c36',
+		numeratio: true
+	});
