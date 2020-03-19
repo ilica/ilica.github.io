@@ -1,0 +1,39 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Oxanium", Arial, sans-serif;
+  color: #333;
+}
+
+.site {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 550px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 30px;
+  line-height: 1.5;
+}
+
+a {
+  font-weight: normal;
+  color: #333;
+  background: #de6859;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #333;
+  background: #e85a48;
+  text-decoration: none;
+}
