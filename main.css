@@ -28,6 +28,11 @@ h3 {
   line-height: 1.5;
 }
 
+.itsnot p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
 .blog p {
   font-size: 18px;
   line-height: 1.5;
@@ -40,6 +45,15 @@ h3 {
 }
 
 .mainpage a {
+  font-weight: normal;
+  color: #333;
+  background: #de6859;
+  text-decoration: none;
+  color: white;
+}
+
+.itsnot a {
+  font-size: 30px;
   font-weight: normal;
   color: #333;
   background: #de6859;
