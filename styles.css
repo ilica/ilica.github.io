@@ -174,3 +174,15 @@ body {
     font-size: 13px;
     color: #777;
 }
+
+.bottom-logos {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.bottom-logos-img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    opacity: 0.95; 
+}
