@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CNNU – Statements</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page">
+
+        <div class="top-bar"></div>
+
+        <header class="site-header">
+            <div class="site-header-inner">
+                <img src="logo.png" alt="CNNU Logo" class="logo">
+                <div class="site-title-block">
+                    <div class="site-name">CNNU</div>
+                    <div class="site-tagline">Caucus for Nonprofit Newsroom Unions</div>
+                </div>
+            </div>
+        </header>
+
+        <main class="content-wrapper">
+            <article class="article-card">
+                <header class="article-header">
+                    <p class="kicker">Union Statement</p>
+                    <h1 class="headline">Hello</h1>
+                    <p class="subhead">Welcome to this page</p>
+
+                   <div class="share-bar">
+    <span class="share-label">Share:</span>
+
+    <!-- X / Twitter -->
+    <a
+        class="share-button"
+        href="https://twitter.com/intent/tweet?text=Check%20out%20this%20statement%20from%20CNNU&url=https%3A%2F%2Fwww.cnnu.org"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
+        <!-- X Icon -->
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+             style="margin-right:6px;">
+            <path d="M18 2H6a4 4 0 0 0-4 4v12a4 
+            4 0 0 0 4 4h12a4 4 0 0 0 4-4V6a4 
+            4 0 0 0-4-4Z"/>
+            <path d="m9 9 6 6m0-6-6 6"/>
+        </svg>
+        X / Twitter
+    </a>
+
+    <!-- BlueSky -->
+    <a
+        class="share-button"
+        href="https://bsky.app/intent/compose?text=Check%20out%20this%20statement%20from%20CNNU%20https%3A%2F%2Fwww.cnnu.org"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
+        <!-- BlueSky Icon (official SVG silhouette) -->
+        <svg width="14" height="14" viewBox="0 0 600 600" fill="currentColor"
+             style="margin-right:6px;">
+            <path d="M300 176c-72-143-286-74-245 72 25 82 
+            143 110 245 242 102-132 220-160 245-242 41-146-173-215-245-72z"/>
+        </svg>
+        BlueSky
+    </a>
+</div>
+
+                    <hr class="divider">
+                </header>
+
+                <section class="article-body">
+                    <p>
+                        This site is the home of the CNNU: a caucus of nonprofit news unions
+                        built by and for newsroom workers who believe in journalism that serves the public.
+                    </p>
+                    <p>
+                        Here, we’ll share updates on our campaigns.
+                    </p>
+                    <p>
+                        If you would like to join this caucus, or would like to contact us, email us.
+                    </p>
+                </section>
+            </article>
+        </main>
+
+        <footer class="site-footer">
+            <p>© <span id="year"></span> CNNU. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    <div class="bottom-bar"></div>
+</body>
+</html>
