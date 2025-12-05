@@ -181,8 +181,8 @@ body {
 }
 
 .bottom-logos-img {
+    display: block;
     max-width: 100%;
     height: auto;
-    margin-top: 20px;
-    opacity: 0.95; 
+    margin: 20px auto 0 auto;
 }
